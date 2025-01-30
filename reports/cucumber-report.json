@@ -1,0 +1,133 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "hide-my-accounts-information-from-the-dashboard;disabling-my-account-toggle-in-the-parameters",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "disabling my account toggle in the parameters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3489776100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am in the home page",
+            "match": {
+              "location": "step_definitions\\BankTransfer.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139080100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on \"Démo de l'application\"",
+            "match": {
+              "location": "step_definitions\\BankTransfer.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102013300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on parametres",
+            "match": {
+              "location": "step_definitions\\DisableDashboardAccountsView.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3161953399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on my account toggle to uncheck it",
+            "match": {
+              "location": "step_definitions\\DisableDashboardAccountsView.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281272300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on save",
+            "match": {
+              "location": "step_definitions\\DisableDashboardAccountsView.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69872199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I clique on continue",
+            "match": {
+              "location": "step_definitions\\DisableDashboardAccountsView.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1782008299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the home page",
+            "match": {
+              "location": "step_definitions\\DisableDashboardAccountsView.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9426900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HideMyAccountsInDashboard",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "hide-my-accounts-information-from-the-dashboard",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Hide my accounts information from the dashboard",
+    "tags": [
+      {
+        "name": "@HideMyAccountsInDashboard",
+        "line": 1
+      }
+    ],
+    "uri": "features\\Parametres.feature"
+  }
+]
